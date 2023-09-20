@@ -1,4 +1,4 @@
-//3.create object eith class
+//3.create object with class
 class Student {
     constructor(id,fn,ln){
         this.id = id
@@ -10,8 +10,8 @@ class Student {
     }
 }
 //st1 object->Student prototype->Object prototype (Ancestor)
-const st1 = new Student(1,'Mary','Jo')
-const st2 = new Student(2,'Adan','Smith')
+const st1 = new Student(1,'Jern','Jo')
+const st2 = new Student(2,'Aron','Smith')
 console.log(st1)
 console.log(st2)
 console.log(st1.getFullname())

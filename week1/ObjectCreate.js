@@ -15,10 +15,11 @@ const st2 = new Student(2,'Aron','Smith')
 
 //4.create object by using Object.create()
 const undegratSt1 = Object.create(st1)
-console.log(undegratSt1)
-console.log(undegratSt1.id)
-console.log(undegratSt1.fn)
-console.log(undegratSt1.ln)
-console.log(Object.prototype.isPrototypeOf(undegratSt1))//true
-console.log(Student.prototype.isPrototypeOf(undegratSt1))
-ีีืunder
+console.log(undergratSt1)
+console.log(undergratSt1.id)
+console.log(undergratSt1.fn)
+console.log(undergratSt1.ln)
+console.log(Object.prototype.isPrototypeOf(undergratSt1))//true
+console.log(Student.prototype.isPrototypeOf(undergratSt1))//true
+undergratSt1.project = 'Web Application'
+console.log(undergratSt1)
