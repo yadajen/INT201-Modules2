@@ -41,4 +41,13 @@ console.log(student)
 console.log(student.advisor.firstname)
 console.log(student['advisor']['firstname'])
 
-//function expression
+ 
+
+// function expresstion
+student.getFullname = function() {
+    return `${this.firstname} ${this.lastname}` // this is "current object" ข้างนอกเป็นของอะไร
+}
+
+console.log(student.getFullname) //[Function (anonymous)] , get properties value
+console.log(student.getFullname()) //john Kumpao , excute function
+const student2 = {id:6744445 , firstname:'Kawinphob' , lastname:'plana'}
