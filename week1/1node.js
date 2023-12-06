@@ -6,7 +6,7 @@ console.log(rootNode.nodeType)
 console.log(rootNode.nodeValue)
 
 console.log(document.documentElement) //root element =html
-console.log(document.documentElement.nodeType) //root element
+console.log(document.documentElement.nodeType) //1
 
 //มีแค่propotiesที่ใช้บ่อย //ถ้าtagที่เราสร้างเองเรียกแบบนี้ไม่ได้
 console.log(document.body) //เรียกhtml>body
