@@ -41,11 +41,11 @@ Array.from(headsChildren).forEach((hc) => {
 
 //จะให้หาทุกtype หรือเอาแค่element type
 //fristchild
-console.log(headElement.firstElementChild)//ลูกตัวแรกของheadที่เป็นelement
-console.log(headElement.firstChild)
+console.log(headElement.firstElementChild)//ลูกตัวแรกของheadที่เป็นelement// <meta charset="UTF-8" />
+console.log(headElement.firstChild)//#text
 
 //lastchild
-console.log(headElement.lastElementChild)
+console.log(headElement.lastElementChild)//<title>introduction</title>
 console.log(headElement.lastChild)
 
 //parent
