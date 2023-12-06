@@ -1,4 +1,4 @@
-const rootNode = document
+const rootNode = document //document object คือroot node
 
 console.log(rootNode)
 console.log(rootNode.nodeName)
