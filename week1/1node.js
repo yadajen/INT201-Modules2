@@ -54,7 +54,7 @@ console.log(headElement.parentNode)//<html><html
 
 //previous sibling
 console.log(headElement.previousElementSibling)//null
-console.log(headElement.previousSibling)//nodeก่อนหน้าheadที่เป็นอะไรก็ได้ //<!--
+console.log(headElement.previousSibling)//nodeก่อนหน้าheadที่เป็นอะไรก็ได้// <!--before head comment-->
 
 //nexi sibling
 console.log(headElement.nextElementSibling)
