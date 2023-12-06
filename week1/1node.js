@@ -46,15 +46,15 @@ console.log(headElement.firstChild)//#text
 
 //lastchild
 console.log(headElement.lastElementChild)//<title>introduction</title>
-console.log(headElement.lastChild)
+console.log(headElement.lastChild)//#text
 
 //parent
-console.log(headElement.parentElement)
-console.log(headElement.parentNode)
+console.log(headElement.parentElement)//<html> <html>
+console.log(headElement.parentNode)//<html><html
 
 //previous sibling
-console.log(headElement.previousElementSibling)
-console.log(headElement.previousSibling)//nodeก่อนหน้าheadที่เป็นอะไรก็ได้
+console.log(headElement.previousElementSibling)//null
+console.log(headElement.previousSibling)//nodeก่อนหน้าheadที่เป็นอะไรก็ได้ //<!--
 
 //nexi sibling
 console.log(headElement.nextElementSibling)
