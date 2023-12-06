@@ -1,4 +1,4 @@
-const rootNode = document
+const rootNode = document //เต็มก็คือ window.document
 
 console.log(rootNode)
 console.log(rootNode.nodeName)
