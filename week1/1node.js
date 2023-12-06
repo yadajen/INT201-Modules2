@@ -5,7 +5,7 @@ console.log(rootNode.nodeName)
 console.log(rootNode.nodeType)
 console.log(rootNode.nodeValue)
 
-console.log(document.documentElement) //node element
+console.log(document.documentElement) //root element =html
 console.log(document.documentElement.nodeType) //root element
 
 //มีแค่propotiesที่ใช้บ่อย //ถ้าtagที่เราสร้างเองเรียกแบบนี้ไม่ได้
