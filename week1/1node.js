@@ -1,9 +1,9 @@
 const rootNode = document //document object คือroot node //nodetype เบอร์9
 
 console.log(rootNode)
-console.log(rootNode.nodeName)
-console.log(rootNode.nodeType)
-console.log(rootNode.nodeValue)
+console.log(rootNode.nodeName)//#document
+console.log(rootNode.nodeType)//9
+console.log(rootNode.nodeValue)//null
 
 console.log(document.documentElement) //root element =html
 console.log(document.documentElement.nodeType) //1
