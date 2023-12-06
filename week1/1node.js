@@ -41,7 +41,7 @@ Array.from(headsChildren).forEach((hc) => {
 
 //จะให้หาทุกtype หรือเอาแค่element type
 //fristchild
-console.log(headElement.firstElementChild)
+console.log(headElement.firstElementChild)//ลูกตัวแรกของheadที่เป็นelement
 console.log(headElement.firstChild)
 
 //lastchild
