@@ -63,5 +63,5 @@ console.log(headElement.nextSibling)
 //get ชุด attibute ของtagที่เราสนใจ
 const headFirstElementChild = headElement.firstElementChild
 const headFirstElementChildAttrs = headFirstElementChild.attributes
-console.log(headFirstElementChildAttrs)
+console.log(headFirstElementChildAttrs)//{0: charset, charset: charset,length:1}
 Array.from(headFirstElementChildAttrs).forEach((attr) => console.log(attr))
