@@ -1,4 +1,4 @@
-const rootNode = document //document object คือroot node
+const rootNode = document //document object คือroot node //nodetype เบอร์9
 
 console.log(rootNode)
 console.log(rootNode.nodeName)
