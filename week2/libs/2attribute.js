@@ -7,8 +7,8 @@ Array.from(firstDivAttributes).forEach((attr) => {
   console.log(attr.name)
   console.log(attr.value)
 })
-console.log(firstDiv.getAttribute("id")) //return value of specified attribute 'id'
-console.log(firstDiv.getAttribute("class"))
+console.log(firstDiv.getAttribute("id")) //return value of specified attribute 'id' //bscit-courses
+console.log(firstDiv.getAttribute("class"))//courses
 //return value of specified attribute 'name'
 
 const firstAttribute = firstDivAttributes[0]
