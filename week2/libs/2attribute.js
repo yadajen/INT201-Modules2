@@ -16,7 +16,7 @@ console.log(firstAttribute.ownerDocument)
 console.log(firstAttribute.ownerElement)
 
 //create a new attribute named 'owner' with value 'Umaporn'
-firstDiv.setAttribute('owner','umaporn') //เพิ่มชื่อ owner
+firstDiv.setAttribute('owner','umaporn') //เพิ่มชื่อ owner //owner="umaporn"
 
 
 
