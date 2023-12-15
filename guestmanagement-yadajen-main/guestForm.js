@@ -7,7 +7,6 @@ import { createGuestList } from './data/guestdata.js'
 
 const guestList = createGuestList()
 
-const display = document.querySelector('#display-area')
 function guestForm() {
   //provide initial guests data list created from GuestManagement class
   const guests = guestList
